@@ -1,0 +1,5 @@
+#!/bin/bash
+photos=(~/Pictures/*.png)
+for file in ${photos[@]}
+	do cp "$file" ~/Desktop/bash/
+done	

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "I am $LOGNAME"
+echo 'I am $LOGNAME'
+# I am a comment
+#echo this isn't an open    space
+echo this is an open\ \ \ space
+echo "My computer is $(hostname)"
+echo boo > testfile
+echo $(( 5+5))
+((5>0)) && echo "Five is greater than zero"
+
